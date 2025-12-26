@@ -1065,7 +1065,9 @@ body {
     margin: 0 0 25px 0;
     padding: 0;
 }
-
+.namecard h3 {
+    color: #f37021;
+}
 .pricing-features li {
     padding: 10px 0;
     color: var(--text-primary);
@@ -1463,6 +1465,9 @@ body {
     }
     .action-buttons {
         padding: 0 40px 30px 40px;
+    }
+    .pointground img {
+        width: 100%;
     }
 }
 

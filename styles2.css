@@ -301,7 +301,12 @@ html {
 .business-card.zeroking {
     border-color: #c91e1e;
 }
-
+.business-card.namecard {
+    border-color: #f37021;
+}
+.business-card.pointground {
+    border-color: #cfb53b;
+}
 .business-card:hover {
     transform: translateY(-15px);
     box-shadow: var(--shadow-xl);
@@ -432,4 +437,13 @@ html {
 
 .business-card.zeroking .btn-business {
     background: #c91e1e;
+}
+.business-card.namecard .btn-business {
+    background: #f37021;
+}
+.business-card.pointground .btn-business {
+    background: #cfb53b;
+}
+.namecard h3 {
+    color: #f37021;
 }
